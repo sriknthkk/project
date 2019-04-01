@@ -228,7 +228,7 @@ public class MainWindow extends JFrame{
 				}
 				
 				private void updateLabel(ListDataEvent e) {
-					getStatusBar().setText("Number of tasks: "+((TodoListModel)e.getSource()).getSize());
+					getStatusBar().setText("Number of in tasks: "+((TodoListModel)e.getSource()).getSize());
 				}
 				
 				@Override
